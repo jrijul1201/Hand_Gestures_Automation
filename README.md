@@ -52,17 +52,36 @@ I hope to implement more than two gestures in the future. There will be further 
 
 As of May 1, 2019 I have used CNN for the recognition of 4 gestures. All the required files are present in the folder `CNN Model`.
 
-### Sample of Images in the New Dataset
+### Sample of Images from the Dataset
+* C
 
-![gesture0.jpg](CNN%20Model/gesture0.jpg)
+![c.jpeg](Sample_Images/c.jpeg)
 
-![gesture1.jpg](CNN%20Model/gesture1.jpg)
+* Fist
 
-![gesture2.jpg](CNN%20Model/gesture2.jpg)
+![fist.jpeg](Sample_Images/fist.jpeg)
 
-![gesture5.jpg](CNN%20Model/gesture5.jpg)
+* Index
 
-## Outputs Showing Error %ages
+![index.jpeg](Sample_Images/index.jpeg)
+
+* L
+
+![L.jpeg](Sample_Images/L.jpeg)
+
+* OK
+
+![ok.jpeg](Sample_Images/ok.jpeg)
+
+* Palm
+
+![palm.jpeg](Sample_Images/palm.jpeg)
+
+* Thumb
+
+![thumb.jpeg](Sample_Images/thumb.jpeg)
+
+## Model Outputs
 
 * *CNN* Training Output
 
