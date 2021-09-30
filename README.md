@@ -15,47 +15,10 @@ Images in the dataset are of dimension *200 by 200*. But for performance reasons
 * `trainedModel.json` - JSON format of the model
 * `CNN Model` - A directory that contains CNN model implementation for the same recognition purpose (with 4 gestures)
 
-## Sample of images in the Dataset
-
-* First Hand Gesture
-
-![firstHandGesture.jpg](firstHandGesture.jpg)
-
-* Second Hand Gesture
-
-![secondHandGesture.jpg](secondHandGesture.jpg)
-
-## Required External libraries
-
-* `cv2 (opencv)`
-* `imutils`
-* `glob`
-* `sklearn (scikit-learn)`
-* `keras`
-* `numpy`
-
-## What You Should See
-
-* For the first gesture
-
-![output1.jpg](output1.jpg)
-
-* For the second gesture
-
-![output2.jpg](output2.jpg)
-
-## Future
-
-I hope to implement more than two gestures in the future. There will be further improvements in the code itself too.
-
-# CNN Implementation
-
-As of May 1, 2019 I have used CNN for the recognition of 4 gestures. All the required files are present in the folder `CNN Model`.
-
 ### Sample of Images from the Dataset
 * C
 
-![c.jpeg](Sample_Images/c.jpeg)
+![C.jpeg](Sample_Images/C.jpeg)
 
 * Fist
 
@@ -90,7 +53,3 @@ As of May 1, 2019 I have used CNN for the recognition of 4 gestures. All the req
 * *Perceptron* Training Output
 
 ![PERCEPTRONoutput.jpg](CNN%20Model/outputPERCEPTRON.JPG)
-
-## Improvements and Differences
-
-I've used both the *Perceptron* as well as the *CNN* Model for recognition of 4 hand gestures. And I can easily say *CNN* works better for extracting features of an image. There's and improvement of Error %age from **32%** to **5%**. This happens because Perceptron model is a simple 1 dimensional set of neurons, therefore it reduces a lot of features in the images whereas the *CNN* is specially designed to work with images and works on 2 dimensional set of neurons. You can read more about the algorithms online.
