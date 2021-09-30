@@ -8,12 +8,11 @@ Images in the dataset are of dimension *200 by 200*. But for performance reasons
 
 ## What's in the Repository
 
-* `captureHand.py` - This program can capture new hand gestures and write them in the specified directory
-* `recognizer.py` - This is the main program that uses pretrained model (in the repo) for recognizing hand gestures
-* `trainer.py` - This program uses the given dataset to train the Perceptron model
-* `modelWeights.h5` - Weights for the Perceptron model
-* `trainedModel.json` - JSON format of the model
-* `CNN Model` - A directory that contains CNN model implementation for the same recognition purpose (with 4 gestures)
+* `captureHandGesture.py` - This program can capture new hand gestures and write them in the specified directory
+* `model_genetor.ipynb` -  This program uses the given dataset to train the Perceptron model and develops the model.
+* `classify_picamera_servo.py` -  This program is for Raspberry.
+* `Prediction_Laptop_Gestures_Automation.ipynb` - This program uses the saved model to classify and automate classes.
+
 
 ### Sample of Images from the Dataset
 * C
