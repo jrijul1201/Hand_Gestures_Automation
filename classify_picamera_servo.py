@@ -48,7 +48,7 @@ def classify_image(interpreter, image, top_k=1):
 
 
 def servo_ctrl(id=0):
-    for i in range(7): #by matching the classes , flag will start working 
+    for i in range(7):
         if i == id:
             kit.servo[i].angle = 90
         else:
