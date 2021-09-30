@@ -53,3 +53,8 @@ Images in the dataset are of dimension *200 by 200*. But for performance reasons
 * Training Output
 
 ![output.png](Model_Images/output.png)
+
+* Graphs
+![1.png](Model_Images/1.png)
+![2.png](Model_Images/2.png)
+
