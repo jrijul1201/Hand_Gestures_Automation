@@ -46,10 +46,10 @@ Images in the dataset are of dimension *200 by 200*. But for performance reasons
 
 ## Model Outputs
 
-* *CNN* Training Output
+* Model Summary
 
-![CNNoutput.jpg](CNN%20Model/outputCNN.JPG)
+![CNNoutput.jpg](Model_Images/summary.JPG)
 
-* *Perceptron* Training Output
+* Training Output
 
-![PERCEPTRONoutput.jpg](CNN%20Model/outputPERCEPTRON.JPG)
+![PERCEPTRONoutput.jpg](Model_Images/output.JPG)
